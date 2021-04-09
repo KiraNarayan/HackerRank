@@ -1,0 +1,10 @@
+#can also use .title fun but it will captitalize the second letter if first one is int or any 
+
+def solve(s):
+    for i in s.split():
+        s = s.replace(i,i.capitalize())
+    return s
+
+if __name__ == '__main__':
+    result = solve(input())
+    print(result)
