@@ -1,0 +1,5 @@
+def name(firstname,lastname):
+    print('Hello {} {}! You just deved into python.'.format(firstname,lastname))
+firstname = input().rstrip()
+lastname = input().rstrip()
+name(firstname,lastname)
