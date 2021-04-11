@@ -1,4 +1,4 @@
-def diagonalDifference(arr)
+def diagonalDifference(arr):
     diagonal_1 = 0
     diagonal_2 = 0
     x = [arr[i][i] for i in range(n)]
