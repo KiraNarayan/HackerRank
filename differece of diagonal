@@ -1,0 +1,11 @@
+def diagonalDifference(arr):
+    diagonal_1 = 0
+    diagonal_2 = 0
+    x = [arr[i][i] for i in range(n)]
+    y = [arr[i][n-(i+1)] for i in range(n)]
+    return (abs(sum(x)-sum(y)))
+n = int(input().rstrip())
+arr = []
+for _ in range(n):
+    arr.append(list(map(int, input().rstrip().split())))
+print(str(diagonalDifference(arr)))
