@@ -1,0 +1,4 @@
+def sample (a):
+    return sum(a) 
+a = set(map(int, input().split()))
+print(sample(a))
